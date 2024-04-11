@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/Users/abhishekyadav/cryptocurrency/homme/5166950.jpg");
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+   
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 60px 15px 60px;
+    
+    & i{
+        font-size: 50px;
+        color: gold;
+        
+    }
+}
+.head{
+   
+    display: flex;
+    gap: 39px;
+}
+button{
+    width: 100px;
+    padding: 0.3rem;
+    border-radius: 8px;
+    border: none;
+    & a{
+        color: black;
+        font-size: 15px;
+    }
+    
+   
+}
+
+.login-signup{
+    display: flex;
+    gap: 17px;
+    
+}
+.main-page{
+    text-align: center;
+    
+    color: white;
+margin-top: 150px;
+    & h1{
+        font-size: 5rem;
+        padding: 7px;
+    }
+    & p{
+        font-size: 2rem;
+    }
+}
+.coinlist{
+    display: flex;
+    align-items: center;
+   gap: 8px;
+   border: 1px solid grey;
+   width: 140px;
+   border-radius: 4px;
+   padding: 6px;
+   & i{
+    font-size: 30px;
+    color: gold;
+   }
+   & p{
+    font-size: 22px;
+    color: gold;
+    text-transform: capitalize;
+   }
+}
+.list{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    position: absolute;
+    right: 150px;
+    & img{
+        width: 30px;
+        aspect-ratio: 1;
+    }
+}
+.circle{
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color:gold;
+     transition: all cubic-bezier(0.075, 0.82, 0.165, 1)1s;
+}
+.second{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 50vh;
+    color: white;
+}
+.elem{
+    border-top: 1px solid #888;
+    width: 88%;
+    padding: 5vh 3.5vh;
+    text-transform: uppercase;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-right: 0;
+   position: relative;
+    & h1{
+        font-size: 7vw;
+        opacity: 0.7;
+        font-weight: 500;
+    }
+}
+
+.elem img{
+    width: 30%;
+    position: absolute;
+    z-index: 3;
+    opacity:0;
+}
+.last{
+    border-bottom: 1px solid #888;
+}
+
+
+
+.foot{
+   
+    & img{
+        width: 60px;
+        aspect-ratio: 1;
+    }
+}
+.first{
+    display: flex;
+   align-items: center;
+   gap: 8px;
+   padding: 10px;
+   margin-left: 40px;
+   margin-top: 40px;
+}
+.logos a img{
+    margin:25px 0px 0px 30px;
+
+   width: 35px;
+   aspect-ratio: 1;
+}
+.div-2{
+    margin:25px 0px 0px 50px;
+}
+.div-3{
+    margin:25px 0px 0px 50px;   
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-left: 0;
+}
+.footer{
+    display: flex;
+    gap: 300px;
+    width: 100vw;
+    height: 500px;
+    background-color: #2E1A47;
+    color: white;
+    list-style: none;
+    margin-top: 200px;
+}
+.foot-div-1 li{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 120px;
+& a{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+}
+.foot-div-2 li{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 120px;
+& a{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+}
+.foot-2{
+    display: flex;
+    gap: 160px;
+}
+#content{
+    width: 300px;
+    height: fit-content;
+}
+.sec{
+    border: 2px solid red;
+    
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+    
+    gap: 10px;
+}
+#content-2{
+    width: 400px;
+    height: fit-content;
+}
+.section-2{
+    margin-top: 0;
+}
